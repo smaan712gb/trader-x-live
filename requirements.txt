@@ -44,5 +44,8 @@ loguru==0.7.2
 beautifulsoup4==4.12.3
 scikit-learn==1.4.2
 
+# Technical Analysis
+pandas-ta==0.3.14b0
+
 # Railway Specific
 gunicorn==21.2.0
