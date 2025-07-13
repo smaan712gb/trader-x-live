@@ -1,5 +1,5 @@
-# Railway Deployment Requirements for Trader-X
-# Conservative versions for maximum compatibility
+# Complete Railway Deployment Requirements for Trader-X
+# All packages needed for the live system
 
 # Core Framework
 streamlit==1.28.1
@@ -30,6 +30,19 @@ urllib3==1.26.16
 
 # JSON Handling
 jsonschema==4.17.3
+
+# Async Support
+aiohttp==3.8.5
+
+# Caching
+cachetools==5.3.1
+
+# Logging
+loguru==0.7.0
+
+# Additional dependencies for web dashboard
+beautifulsoup4==4.12.2
+scikit-learn==1.3.0
 
 # Technical Analysis
 pandas-ta==0.3.14b0
