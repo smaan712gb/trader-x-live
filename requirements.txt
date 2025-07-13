@@ -1,5 +1,5 @@
-# Railway Deployment Requirements for Trader-X
-# Optimized for Railway's Python environment
+# Complete Railway Deployment Requirements for Trader-X
+# All packages needed for the live system
 
 # Core Framework
 streamlit==1.28.1
@@ -39,6 +39,10 @@ cachetools==5.3.2
 
 # Logging
 loguru==0.7.2
+
+# Additional dependencies for web dashboard
+beautifulsoup4==4.12.3
+scikit-learn==1.4.2
 
 # Railway Specific
 gunicorn==21.2.0
